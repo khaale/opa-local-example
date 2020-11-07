@@ -2,7 +2,7 @@
 An example of local Open Policy Agent (OPA) testing pipeline for Java\Maven\Spring Boot projects
 
 ## Intro
-This is a minimalistic example of artifacts, intended to be a starting point for your journey into Governance as a Code world.
+This is a minimalistic example of artifacts, intended to be a starting point of your journey into a Governance as a Code world.
 
 It contains some scripts and basic rules to validate:
 - *application.yml* files which usually contains service configuration
