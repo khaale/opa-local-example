@@ -1,5 +1,5 @@
 # opa-local-example
-An example of local Open Policy Agent (OPA) testing pipeline for Java\Maven\Spring Boot projects
+An example of local Open Policy Agent (OPA) testing pipeline for Java\Maven\Spring Boot projects.
 
 ## Intro
 This is a minimalistic example of artifacts, intended to be a starting point of your journey into a Governance as a Code world.
