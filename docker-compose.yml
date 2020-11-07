@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+  opa:
+    build: .
+    volumes:
+      # Directory with configuration files
+      - ./examples/java-maven-spring/cfg:/opa/cfg
+      # Directory with OPA rules
+      - ./examples/java-maven-spring/rules:/opa/rules
+      # Directory with projects to validate
+      - ./examples/java-maven-spring/projects:/opa/projects
+    environment:
+      # Filter for project directories in a projects directory
+      - PROJECT_DIR_PATTERN=ms-*
+      # Rules to run - passed to OPA as eval string
+      - RUN_RULES=data.test_app_config.deny; data.test_pom.deny

@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://local
+    username: admin
+    password: password
+
+logging:
+  file: /var/log/service.log
+  level:
+    root: DEBUG
+
